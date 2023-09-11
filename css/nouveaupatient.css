@@ -1,0 +1,190 @@
+body{
+  display: grid;
+  background-color: #cccccc;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+}
+header{
+  background-color: white;
+height: 86px;
+margin:0px ;
+padding:0px;
+display: block;  
+
+}
+.logo{
+  
+  height: 100px;
+  position: absolute; 
+  top: 0;
+  left: 0;
+}
+.deconnexion{
+  display: flex;
+  float: right;
+  text-align: right;
+  /*margin-top: 20px;*/
+  width: 25%;
+}
+svg.icon0 {
+  width: 22%;
+  margin-top: -2px;
+  margin-left: 70px;
+}
+.deco{
+  border: none;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  height: 25%;
+  margin-top: 30px;
+  padding: .375rem .75rem;
+  margin-left: -10px;
+  border-radius: .25rem;
+  
+}
+.deco:hover{background: #55abd8; }
+.button {
+border: none;
+color: white;
+text-align: center;
+font-size: 16px;
+margin-top: 40px;
+cursor: pointer;
+padding: 15px 32px;
+text-decoration: none;
+
+
+}
+
+#mySidenav a {
+position: absolute;
+left: -140px;
+transition: 0.3s;
+padding: 15px;
+width: 150px;
+text-decoration: none;
+font-size: 20px;
+color: white;
+border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+left: 0;
+}
+
+#accueil  {
+top: 150px;
+background-color: #2196F3;
+}
+
+
+#Lrdv {
+top: 210px;
+background-color: #2196F3;
+}
+
+#Ardv {
+top: 270px;
+background-color: #2196F3;
+}
+
+#np{
+top: 330px;
+background-color: #555;
+}
+.icon{
+margin-right: -20px;
+  margin-left: 1099px;
+  margin-top: -102px;
+  margin-bottom: 36px;
+  padding-left: 18px;
+}
+
+.form-style-9 ul{
+margin:-24px
+}
+.form-style-9 ul li {
+display: block;
+min-height: 70px;
+margin-left: 160px;
+width: 75%;
+}
+
+.form-style-9 ul li  .field-style{
+box-sizing: border-box; 
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box; 
+padding: 8px;
+outline: none;
+border: 1px solid #B0CFE0;
+-webkit-transition:all 0.30s ease-in-out;
+-moz-transition: all 0.30s ease-in-out;
+-ms-transition: all 0.30s ease-in-out;
+-o-transition: all 0.30s ease-in-out;
+
+}
+.form-style-9 ul li  .field-style:focus{
+box-shadow: 0 0 5px #B0CFE0;
+border:1px solid #B0CFE0;
+}
+.form-style-9 ul li .field-split {
+width: 40%;
+}
+.form-style-9 ul li .field-full{
+width: 100%;
+}
+.form-style-9 ul li input.align-left{
+float:left;
+}
+.form-style-9 ul li input.align-right{
+float:right;
+}
+.form-style-9 ul li textarea{
+width: 100%;
+height: 100px;
+}
+.form-style-9 ul li input[type="button"] {
+  -moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
+-webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
+box-shadow: inset 0px 1px 0px 0px #3985B1;
+background-color: #216288;
+border: 1px solid #17445E;
+display: inline-block;
+cursor: pointer;
+color: #FFFFFF;
+padding: 8px 18px;
+text-decoration: none;
+font: 12px Arial, Helvetica, sans-serif;
+}
+
+input.field-style.field-split.align-right {
+  margin-right: -56px;
+}
+svg.icon1{
+  float: left;
+  margin: -50px -13px -30px -67px;
+  padding: 17px 19px 2px 19px;
+  width: 65px;
+}
+.list{
+width: 43px;
+  margin: 5px;
+}
+.rad {
+margin-top: -53px;
+  margin-left: 644px;
+}
+input[type="radio"] {
+  width: 47px;
+}
+label{
+  color: black;
+  font-size: 24px;
+}
+input[type="button"]{
+  background-color: #55abd8;
+
+}
